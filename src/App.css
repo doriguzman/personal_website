@@ -1,0 +1,201 @@
+/* this is for the splash page */
+
+@import url("https://fonts.googleapis.com/css?family=Clicker+Script");
+#welcome-page {
+  background-color: #292929;
+}
+
+#welcome-page,
+#aboutme-page,
+#projects-page,
+#skills-page,
+#contact-page {
+  height: 740px;
+}
+#welcome-middle {
+  color: white;
+  text-align: center;
+  margin: 225px;
+  margin-top: 275px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.text {
+  position: static;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  list-style: none;
+  border-bottom: 0;
+  margin-left: 60%;
+  width: 100%;
+  background: url(pink_paint.png);
+  /* background: url(./gold-brush-1-fptfy.png); */
+}
+
+.text.hidden {
+  /* border-bottom: 1px solid #fff; */
+  /* margin-left: 64%; */
+}
+
+ul {
+  display: flex;
+  font-family: "Clicker Script", cursive;
+  font-size: 72px;
+}
+.text li {
+  display: inline-block;
+  /* float: left; */
+  padding-left: 5px;
+  padding-right: 5px;
+  font-weight: 700;
+  font-size: 2em;
+  color: #fff;
+  opacity: 1;
+  transition: all 1.5s ease-in-out;
+  max-width: 2em;
+}
+.text.hidden li.spaced {
+  padding-left: 0;
+}
+.text li.spaced {
+  padding-left: 0.5em;
+}
+
+.text.hidden li.ghost {
+  opacity: 0;
+  max-width: 0;
+}
+
+#welcome-occupation {
+  color: #f7484e;
+  font-family: proxima-nova bold, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1em;
+  padding-top: 36px;
+  margin-top: 0;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: -20px;
+}
+#main-nav,
+.main-nav-links,
+#skills-nav,
+.skills-nav-links {
+  color: #f7484e;
+  font-family: proxima-nova regular, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  padding: 0 12px 0 9px;
+  margin-top: -75px;
+}
+
+.main-nav-links:hover,
+.skills-nav-links:hover,
+.aboutme-nav-links:hover,
+.contact-nav-links:hover {
+  padding-bottom: 5px;
+  border-width: 2px;
+  border-bottom: 3px solid white;
+}
+
+.projects-nav-links:hover {
+  padding-bottom: 5px;
+  border-width: 2px;
+  border-bottom: 3px solid #f7484e;
+}
+/* this is for the about me page */
+
+.aboutme-nav,
+.aboutme-nav-links,
+a,
+.contact-nav,
+.contact-nav-links {
+  color: black;
+  font-family: proxima-nova regular, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  padding: 0 12px 0 9px;
+  margin-top: 260px;
+}
+
+.skills-nav,
+.projects-nav {
+  margin-top: 260px;
+}
+
+#aboutme-page,
+#projects-page,
+#skills-page,
+#contact-page {
+  display: flex;
+}
+.left-card,
+.right-card {
+  display: inline-block;
+  height: 740px;
+  width: 50%;
+}
+.left-card-intro {
+  font-family: "Clicker Script", cursive;
+  font-size: 100px;
+  text-align: center;
+  margin-top: 40%;
+}
+
+#aboutme-left-card {
+  background-color: #f7484e;
+  color: white;
+}
+
+#projects-left-card {
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+#skills-left-card {
+  background-color: #292929;
+  color: #f7484e;
+  text-align: center;
+}
+#skills-intro {
+  color: white;
+}
+#contact-left-card {
+  background-color: #f7484e;
+  color: white;
+}
+
+/* h1{
+  margin:318px;
+} */
+
+#iconHolder {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction:column; */
+  height: 740px;
+  /* width: 50%; */
+}
+
+.icons {
+  width: 100px;
+  height: 100px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+}
